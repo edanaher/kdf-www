@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <title>kdf.sh</title>
+  </head>
+  <body>
+    <p>kdf.sh is a short domain that is on the home row of the standard qwerty layout.<p>
+    <p>kdf.sh is a mix of utilities, experiments, and things that don't have a dedicated domain yet.</p>
+    <p>kdf.sh is self-referential.</p>
+    <p>kdf.sh hosts:<p>
+    <ul>
+      <li><a href="http://gritonputty.kdf.sh">gritonputty</a>, a typing tutor aimed at the twiddler.</li>
+      <li>Various mini-http utilities: <ul>
+        <li>Http status codes, including:<ul>
+          <li><a href="http://200.kdf.sh/content">http://200.kdf.sh/content</a></li>
+          <li><a href="http://404.kdf.sh/oh noes">http://404.kdf.sh/oh noes</a></li>
+          <li>Other assorted status codes.</li>
+          <li><a href="http://301.kdf.sh/http://200.kdf.sh/magic redirect">http://301.kdf.sh/http://200.kdf.sh/magic redirect</a></li>
+        </ul></li>
+        <li><a href="http://time.kdf.sh">http://time.kdf.sh</a>; see also <a href="http://time.kdf.sh/EST">/EST</a>; <a href="http://time.kdf.sh/unix">/unix</a>; <a href="http://time.kdf.sh/unix/1234567890/EST">/unix/1234567890/EST</a>; and <a href="http://time.kdf.sh/1971-01-01T12:00:00Z/unix">/1971-01-01T12:00:00Z/unix</a>
+        <li><a href="http://echo.kdf.sh">http://echo.kdf.sh</a>, which echos back the full request it received.
+        <li><a href="http://ip.kdf.sh">http://ip.kdf.sh</a>, a minimalist "what is my ip" service.
+          <li><a href="http://proxy.kdf.sh">http://proxy.kdf.sh</a>, a HTTP proxy that can add headers to the request or response with "?@" and "?!"; e.g., <a href= "http://proxy.kdf.sh/http://echo.kdf.sh/body?@Request-Header=magic?!ReponseHeader=more magic">http://proxy.kdf.sh/http://echo.kdf.sh/body?@Request-Header=magic?!ReponseHeader=more magic</a>
+      </ul></li>
+      <li>Various mini-DNS utilities: <ul>
+        <li>prefix.data.127.0.0.1.ip.kdf.sh resolves to 127.0.0.1. (Inspired by <a href="http://xip.io">xip.io</a>)</li>
+        <li>www.google.com.cname.kdf.sh resolves to a CNAME for google.com (though Google's servers don't respond to that hostname).</li>
+        <li>me.ip.kdf.sh resolves to a host requesting the DNS entry.  Due to caching, this is not actually very useful.</li>
+      </ul></li>
+      <li>Various other secret, obscure, or not-yet documented things.</li>
+    </ul>
+  </body>
+</html>
